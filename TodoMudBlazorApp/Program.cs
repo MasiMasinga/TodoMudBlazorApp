@@ -1,9 +1,9 @@
 using Todo.Data;
 using MudBlazor.Services;
-using Microsoft.EntityFrameworkCore;
 using Todo.Interface;
-using TodoMudBlazorApp.Components;
 using Todo.Services;
+using Microsoft.EntityFrameworkCore;
+using TodoMudBlazorApp.Components;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,6 +16,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddControllers();
+builder.Services.AddScoped<ITodoService, TodoService>(); 
 
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents()
@@ -26,6 +27,8 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
     app.UseWebAssemblyDebugging();
+    app.UseSwagger();
+    app.UseSwaggerUI();
 }
 else
 {
@@ -36,8 +39,10 @@ else
 
 app.UseHttpsRedirection();
 
-
 app.UseAntiforgery();
+
+// Map API controllers
+app.MapControllers();
 
 app.MapStaticAssets();
 app.MapRazorComponents<App>()

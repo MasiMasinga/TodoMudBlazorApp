@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "TodoMudBlazorApp.Client",
   "resources": {
-    "hash": "sha256-cFxGdYM4rm7HTPbAy4dwaLsGF1QQaW5Dpp1ORCnWTl0=",
+    "hash": "sha256-S2jcZ8LIDKoLpfleMO2k/eYzNZXy6gL4ORBw1abJuZQ=",
     "fingerprinting": {
       "Microsoft.AspNetCore.Authorization.is84zt9n9u.wasm": "Microsoft.AspNetCore.Authorization.wasm",
       "Microsoft.AspNetCore.Components.3zig3jhz80.wasm": "Microsoft.AspNetCore.Components.wasm",
@@ -204,8 +204,8 @@
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
       "icudt_EFIGS.tptq2av103.dat": "icudt_EFIGS.dat",
       "icudt_no_CJK.lfu7j35m59.dat": "icudt_no_CJK.dat",
-      "TodoMudBlazorApp.Client.ywr2ixyvzu.wasm": "TodoMudBlazorApp.Client.wasm",
-      "TodoMudBlazorApp.Client.2xlhzkrh1q.pdb": "TodoMudBlazorApp.Client.pdb"
+      "TodoMudBlazorApp.Client.ql77sjqw4k.wasm": "TodoMudBlazorApp.Client.wasm",
+      "TodoMudBlazorApp.Client.8d4cigyszu.pdb": "TodoMudBlazorApp.Client.pdb"
     },
     "jsModuleNative": {
       "dotnet.native.st0ovrfdhi.js": "sha256-MBW/zayfv+YU6mhH7y4b8NNU4D1EYd7nf9gYrFshnnY="
@@ -418,10 +418,10 @@
       "WindowsBase.pg3o6xzigg.wasm": "sha256-dz62CHynC+zqTkbMOf3vm7YAhiRA8/pIoAwuqHfBL5M=",
       "mscorlib.jl2pswegra.wasm": "sha256-mSoCIDTdCQKTipW8VmFCypW/4AopZauaYRa8LoZdHvY=",
       "netstandard.uriri6ambh.wasm": "sha256-yuH/cvPd6r8N9nfPWihyckFD7hPFP+VQtQQxEqi7HIQ=",
-      "TodoMudBlazorApp.Client.ywr2ixyvzu.wasm": "sha256-0k/jv1HpyBN7iFDEbOdHSyUdwrOFVet6f7OjD9po7ys="
+      "TodoMudBlazorApp.Client.ql77sjqw4k.wasm": "sha256-wnVPaCYftsbN9AWtlUvh5RzA2Z/Lwofyqo5nfUB3ZKM="
     },
     "pdb": {
-      "TodoMudBlazorApp.Client.2xlhzkrh1q.pdb": "sha256-NkykLEuM6xQlS3FO5BbgBR55gzCz7Hr5qKF8cyKjX5k="
+      "TodoMudBlazorApp.Client.8d4cigyszu.pdb": "sha256-5KzlfKsWVKnhXy7IS3ncXFP3MwNoeFcR1V+BzNyxt34="
     }
   },
   "cacheBootResources": true,

@@ -202,8 +202,6 @@
 /Users/masibongemasinga/Documents/Projects/TodoMudBlazorApp/TodoMudBlazorApp.Client/bin/Debug/net9.0/wwwroot/_framework/icudt_CJK.tjcz0u77k5.dat
 /Users/masibongemasinga/Documents/Projects/TodoMudBlazorApp/TodoMudBlazorApp.Client/bin/Debug/net9.0/wwwroot/_framework/icudt_EFIGS.tptq2av103.dat
 /Users/masibongemasinga/Documents/Projects/TodoMudBlazorApp/TodoMudBlazorApp.Client/bin/Debug/net9.0/wwwroot/_framework/icudt_no_CJK.lfu7j35m59.dat
-/Users/masibongemasinga/Documents/Projects/TodoMudBlazorApp/TodoMudBlazorApp.Client/bin/Debug/net9.0/wwwroot/_framework/TodoMudBlazorApp.Client.ywr2ixyvzu.wasm
-/Users/masibongemasinga/Documents/Projects/TodoMudBlazorApp/TodoMudBlazorApp.Client/bin/Debug/net9.0/wwwroot/_framework/TodoMudBlazorApp.Client.2xlhzkrh1q.pdb
 /Users/masibongemasinga/Documents/Projects/TodoMudBlazorApp/TodoMudBlazorApp.Client/bin/Debug/net9.0/wwwroot/_framework/blazor.boot.json
 /Users/masibongemasinga/Documents/Projects/TodoMudBlazorApp/TodoMudBlazorApp.Client/bin/Debug/net9.0/wwwroot/_framework/blazor.webassembly.js.gz
 /Users/masibongemasinga/Documents/Projects/TodoMudBlazorApp/TodoMudBlazorApp.Client/bin/Debug/net9.0/wwwroot/_framework/Microsoft.AspNetCore.Authorization.is84zt9n9u.wasm.gz
@@ -409,8 +407,6 @@
 /Users/masibongemasinga/Documents/Projects/TodoMudBlazorApp/TodoMudBlazorApp.Client/bin/Debug/net9.0/wwwroot/_framework/icudt_CJK.tjcz0u77k5.dat.gz
 /Users/masibongemasinga/Documents/Projects/TodoMudBlazorApp/TodoMudBlazorApp.Client/bin/Debug/net9.0/wwwroot/_framework/icudt_EFIGS.tptq2av103.dat.gz
 /Users/masibongemasinga/Documents/Projects/TodoMudBlazorApp/TodoMudBlazorApp.Client/bin/Debug/net9.0/wwwroot/_framework/icudt_no_CJK.lfu7j35m59.dat.gz
-/Users/masibongemasinga/Documents/Projects/TodoMudBlazorApp/TodoMudBlazorApp.Client/bin/Debug/net9.0/wwwroot/_framework/TodoMudBlazorApp.Client.ywr2ixyvzu.wasm.gz
-/Users/masibongemasinga/Documents/Projects/TodoMudBlazorApp/TodoMudBlazorApp.Client/bin/Debug/net9.0/wwwroot/_framework/TodoMudBlazorApp.Client.2xlhzkrh1q.pdb.gz
 /Users/masibongemasinga/Documents/Projects/TodoMudBlazorApp/TodoMudBlazorApp.Client/bin/Debug/net9.0/wwwroot/_framework/blazor.boot.json.gz
 /Users/masibongemasinga/Documents/Projects/TodoMudBlazorApp/TodoMudBlazorApp.Client/bin/Debug/net9.0/TodoMudBlazorApp.Client.staticwebassets.runtime.json
 /Users/masibongemasinga/Documents/Projects/TodoMudBlazorApp/TodoMudBlazorApp.Client/bin/Debug/net9.0/TodoMudBlazorApp.Client.staticwebassets.endpoints.json
@@ -1035,9 +1031,6 @@
 /Users/masibongemasinga/Documents/Projects/TodoMudBlazorApp/TodoMudBlazorApp.Client/obj/Debug/net9.0/compressed/lxvoxmnayd-tjcz0u77k5.gz
 /Users/masibongemasinga/Documents/Projects/TodoMudBlazorApp/TodoMudBlazorApp.Client/obj/Debug/net9.0/compressed/8x8aja93xl-tptq2av103.gz
 /Users/masibongemasinga/Documents/Projects/TodoMudBlazorApp/TodoMudBlazorApp.Client/obj/Debug/net9.0/compressed/zn7d9oasej-lfu7j35m59.gz
-/Users/masibongemasinga/Documents/Projects/TodoMudBlazorApp/TodoMudBlazorApp.Client/obj/Debug/net9.0/compressed/am47eycmq6-ywr2ixyvzu.gz
-/Users/masibongemasinga/Documents/Projects/TodoMudBlazorApp/TodoMudBlazorApp.Client/obj/Debug/net9.0/compressed/48r75bmtr3-2xlhzkrh1q.gz
-/Users/masibongemasinga/Documents/Projects/TodoMudBlazorApp/TodoMudBlazorApp.Client/obj/Debug/net9.0/compressed/5t8uhxtnv0-lazwhghabi.gz
 /Users/masibongemasinga/Documents/Projects/TodoMudBlazorApp/TodoMudBlazorApp.Client/obj/Debug/net9.0/staticwebassets.build.json
 /Users/masibongemasinga/Documents/Projects/TodoMudBlazorApp/TodoMudBlazorApp.Client/obj/Debug/net9.0/staticwebassets.build.json.cache
 /Users/masibongemasinga/Documents/Projects/TodoMudBlazorApp/TodoMudBlazorApp.Client/obj/Debug/net9.0/staticwebassets.development.json
@@ -1047,3 +1040,11 @@
 /Users/masibongemasinga/Documents/Projects/TodoMudBlazorApp/TodoMudBlazorApp.Client/obj/Debug/net9.0/refint/TodoMudBlazorApp.Client.dll
 /Users/masibongemasinga/Documents/Projects/TodoMudBlazorApp/TodoMudBlazorApp.Client/obj/Debug/net9.0/TodoMudBlazorApp.Client.pdb
 /Users/masibongemasinga/Documents/Projects/TodoMudBlazorApp/TodoMudBlazorApp.Client/obj/Debug/net9.0/ref/TodoMudBlazorApp.Client.dll
+/Users/masibongemasinga/Documents/Projects/TodoMudBlazorApp/TodoMudBlazorApp.Client/obj/Debug/net9.0/TodoMudBlazorApp.Client.sourcelink.json
+/Users/masibongemasinga/Documents/Projects/TodoMudBlazorApp/TodoMudBlazorApp.Client/bin/Debug/net9.0/wwwroot/_framework/TodoMudBlazorApp.Client.ql77sjqw4k.wasm
+/Users/masibongemasinga/Documents/Projects/TodoMudBlazorApp/TodoMudBlazorApp.Client/bin/Debug/net9.0/wwwroot/_framework/TodoMudBlazorApp.Client.8d4cigyszu.pdb
+/Users/masibongemasinga/Documents/Projects/TodoMudBlazorApp/TodoMudBlazorApp.Client/bin/Debug/net9.0/wwwroot/_framework/TodoMudBlazorApp.Client.ql77sjqw4k.wasm.gz
+/Users/masibongemasinga/Documents/Projects/TodoMudBlazorApp/TodoMudBlazorApp.Client/bin/Debug/net9.0/wwwroot/_framework/TodoMudBlazorApp.Client.8d4cigyszu.pdb.gz
+/Users/masibongemasinga/Documents/Projects/TodoMudBlazorApp/TodoMudBlazorApp.Client/obj/Debug/net9.0/compressed/am47eycmq6-ql77sjqw4k.gz
+/Users/masibongemasinga/Documents/Projects/TodoMudBlazorApp/TodoMudBlazorApp.Client/obj/Debug/net9.0/compressed/48r75bmtr3-8d4cigyszu.gz
+/Users/masibongemasinga/Documents/Projects/TodoMudBlazorApp/TodoMudBlazorApp.Client/obj/Debug/net9.0/compressed/5t8uhxtnv0-49rfqen4u7.gz
