@@ -1,0 +1,90 @@
+@inject HttpClient Http
+@inject ISnackbar Snackbar
+
+<MudDialog>
+    <DialogContent>
+        <MudTextField @bind-Value="@TodoItem.Title" 
+                     Label="Todo Title" 
+                     Variant="Variant.Outlined" 
+                     Required="true" 
+                     RequiredError="Title is required"
+                     MaxLength="255"
+                     Counter="255"
+                     Class="mb-3" />
+        
+        <MudCheckBox T="bool" @bind-Checked="@TodoItem.IsCompleted" Label="Completed" Color="Color.Success" />
+    </DialogContent>
+    <DialogActions>
+        <MudButton OnClick="Cancel" Disabled="@_isSaving">Cancel</MudButton>
+        <MudButton Color="Color.Primary" Variant="Variant.Filled" OnClick="Save" Disabled="@(string.IsNullOrWhiteSpace(TodoItem.Title) || _isSaving)" StartIcon="@(_isSaving ? Icons.Material.Filled.HourglassEmpty : null)">
+            @(_isSaving ? (IsEditMode ? "Updating..." : "Creating...") : (IsEditMode ? "Update" : "Create"))
+        </MudButton>
+    </DialogActions>
+</MudDialog>
+
+@code {
+    [CascadingParameter] IDialogReference? MudDialog { get; set; }
+    
+    [Parameter] public TodoItem TodoItem { get; set; } = new();
+    [Parameter] public bool IsEditMode { get; set; }
+
+    private bool _isSaving;
+
+    private void Cancel()
+    {
+        if (!_isSaving)
+        {
+            MudDialog?.Close(DialogResult.Cancel());
+        }
+    }
+
+    private async Task Save()
+    {
+        if (string.IsNullOrWhiteSpace(TodoItem.Title))
+        {
+            Snackbar.Add("Title is required", Severity.Warning);
+            return;
+        }
+
+        if (_isSaving)
+        {
+            return;
+        }
+
+        _isSaving = true;
+
+        try
+        {
+            HttpResponseMessage response;
+
+            if (IsEditMode)
+            {
+                response = await Http.PutAsJsonAsync($"api/todo/{TodoItem.Id}", TodoItem);
+            }
+            else
+            {
+                var createDto = new { TodoItem.Title, TodoItem.IsCompleted };
+                response = await Http.PostAsJsonAsync("api/todo", createDto);
+            }
+
+            if (response.IsSuccessStatusCode)
+            {
+                Snackbar.Add(IsEditMode ? "Todo updated successfully" : "Todo created successfully", Severity.Success);
+                
+                MudDialog?.Close(DialogResult.Ok(true));
+            }
+            else
+            {
+                var errorMessage = await response.Content.ReadAsStringAsync();
+                Snackbar.Add($"Error: {errorMessage}", Severity.Error);
+                _isSaving = false;
+            }
+        }
+        catch (Exception ex)
+        {
+            Snackbar.Add($"Error saving todo: {ex.Message}", Severity.Error);
+            _isSaving = false;
+        }
+    }
+}
+

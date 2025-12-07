@@ -18,6 +18,25 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddControllers();
 builder.Services.AddScoped<ITodoService, TodoService>(); 
 
+// Register HttpClient for server-side pre-rendering scenarios
+// This allows InteractiveWebAssembly components to be pre-rendered on the server
+builder.Services.AddScoped(sp =>
+{
+    var httpClient = new HttpClient();
+    // For server-side pre-rendering, use the request's base address
+    var httpContext = sp.GetRequiredService<IHttpContextAccessor>().HttpContext;
+    if (httpContext != null)
+    {
+        var request = httpContext.Request;
+        var baseUrl = $"{request.Scheme}://{request.Host}";
+        httpClient.BaseAddress = new Uri(baseUrl);
+    }
+    return httpClient;
+});
+
+// Add IHttpContextAccessor for accessing HttpContext in the HttpClient factory
+builder.Services.AddHttpContextAccessor();
+
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents()
     .AddInteractiveWebAssemblyComponents();

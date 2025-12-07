@@ -1041,10 +1041,10 @@
 /Users/masibongemasinga/Documents/Projects/TodoMudBlazorApp/TodoMudBlazorApp.Client/obj/Debug/net9.0/TodoMudBlazorApp.Client.pdb
 /Users/masibongemasinga/Documents/Projects/TodoMudBlazorApp/TodoMudBlazorApp.Client/obj/Debug/net9.0/ref/TodoMudBlazorApp.Client.dll
 /Users/masibongemasinga/Documents/Projects/TodoMudBlazorApp/TodoMudBlazorApp.Client/obj/Debug/net9.0/TodoMudBlazorApp.Client.sourcelink.json
-/Users/masibongemasinga/Documents/Projects/TodoMudBlazorApp/TodoMudBlazorApp.Client/bin/Debug/net9.0/wwwroot/_framework/TodoMudBlazorApp.Client.ql77sjqw4k.wasm
-/Users/masibongemasinga/Documents/Projects/TodoMudBlazorApp/TodoMudBlazorApp.Client/bin/Debug/net9.0/wwwroot/_framework/TodoMudBlazorApp.Client.8d4cigyszu.pdb
-/Users/masibongemasinga/Documents/Projects/TodoMudBlazorApp/TodoMudBlazorApp.Client/bin/Debug/net9.0/wwwroot/_framework/TodoMudBlazorApp.Client.ql77sjqw4k.wasm.gz
-/Users/masibongemasinga/Documents/Projects/TodoMudBlazorApp/TodoMudBlazorApp.Client/bin/Debug/net9.0/wwwroot/_framework/TodoMudBlazorApp.Client.8d4cigyszu.pdb.gz
-/Users/masibongemasinga/Documents/Projects/TodoMudBlazorApp/TodoMudBlazorApp.Client/obj/Debug/net9.0/compressed/am47eycmq6-ql77sjqw4k.gz
-/Users/masibongemasinga/Documents/Projects/TodoMudBlazorApp/TodoMudBlazorApp.Client/obj/Debug/net9.0/compressed/48r75bmtr3-8d4cigyszu.gz
-/Users/masibongemasinga/Documents/Projects/TodoMudBlazorApp/TodoMudBlazorApp.Client/obj/Debug/net9.0/compressed/5t8uhxtnv0-49rfqen4u7.gz
+/Users/masibongemasinga/Documents/Projects/TodoMudBlazorApp/TodoMudBlazorApp.Client/bin/Debug/net9.0/wwwroot/_framework/TodoMudBlazorApp.Client.svn9in63uf.wasm
+/Users/masibongemasinga/Documents/Projects/TodoMudBlazorApp/TodoMudBlazorApp.Client/bin/Debug/net9.0/wwwroot/_framework/TodoMudBlazorApp.Client.vszxh29rsu.pdb
+/Users/masibongemasinga/Documents/Projects/TodoMudBlazorApp/TodoMudBlazorApp.Client/bin/Debug/net9.0/wwwroot/_framework/TodoMudBlazorApp.Client.svn9in63uf.wasm.gz
+/Users/masibongemasinga/Documents/Projects/TodoMudBlazorApp/TodoMudBlazorApp.Client/bin/Debug/net9.0/wwwroot/_framework/TodoMudBlazorApp.Client.vszxh29rsu.pdb.gz
+/Users/masibongemasinga/Documents/Projects/TodoMudBlazorApp/TodoMudBlazorApp.Client/obj/Debug/net9.0/compressed/am47eycmq6-svn9in63uf.gz
+/Users/masibongemasinga/Documents/Projects/TodoMudBlazorApp/TodoMudBlazorApp.Client/obj/Debug/net9.0/compressed/48r75bmtr3-vszxh29rsu.gz
+/Users/masibongemasinga/Documents/Projects/TodoMudBlazorApp/TodoMudBlazorApp.Client/obj/Debug/net9.0/compressed/5t8uhxtnv0-mqyl7qrygp.gz
